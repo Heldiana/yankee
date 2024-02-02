@@ -1,0 +1,249 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        *, h2{
+            font-family: "permanent marker";
+        }
+        .bg{
+            background-size: cover;
+            background-position: center center;
+            background-image: url(css/blink.jpg);
+            height: 100VH;
+            
+        }
+    </style>
+
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          color:white   ;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+    </style>
+
+    <script>
+        function tampil(namaId) 
+        {
+            var i;
+            var x = document.getElementsByClassName("tampil");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(namaId).style.display = "block";
+            document.getElementById('background').style.display = "none";
+            document.getElementById('album').style.display = "none";
+        }
+    </script>
+    
+
+    <div class="w3-bar w3-black" style="display: flex; justify-content: space-between;">
+        <div class="w3-panel" style="display: flex; justify-content: left;">
+            <img src="css/logo.webp" style="width: 12%;" >
+        </div>
+        <div class="w3-panel" style="display: flex; justify-content: space-between;">
+            <button class="w3-button" onclick="tampil('home')">HOME</button>
+            <button class="w3-button" onclick="tampil('personil')">PERSONIL</button>
+            <button class="w3-button" onclick="tampil('music')">MUSIC</button>
+            <button class="w3-button" onclick="tampil('tour')">TOUR</button>
+            <button class="w3-button" onclick="tampil('aboutme')">ABOUT ME</button>
+        </div>
+    </div>
+    <div class="w3-container bg" id="background" style="display: block;"></div>
+    <div class="w3-panel" id="album" style="width: 100%; display: block;">
+        <center>
+            <img src="css/logoblink.webp" style="width: 30%;">
+            <img src="css/album2.webp" style="width: 30%;">
+            <img src="css/album3.webp" style="width: 30%;">
+        </center>
+    </div>
+    <div id="home" class="w3-container tampil" style="display: none;">
+        <div class="w3-panel">
+            <center>
+                <h2>ABOUT BAND</h2>
+            </center>
+            <div class="w3-panel">
+                <center>
+                    <img src="css/pose.jpg" style="width: 100%;">
+                </center>
+            </div>
+            <P>
+                Blink-182 adalah grup musik pop punk asal Amerika Serikat yang beranggotakan trio Mark Hoppus, Tom DeLonge, dan Travis Barker dengan mantan personel mereka Scott Raynor dan Matt Skiba. Mereka telah menjual lebih dari 41 juta kopi album di seluruh dunia sejak terbentuk di Poway, California pada tahun 1992. Bersama dengan drummer pertama mereka, Scott Raynor, Blink-182 merilis album perdana mereka, Cheshire Cat, pada tahun 1994 dan mendapatkan sukses menengah dengan album berikutnya, Dude Ranch, pada tahun 1997, yang didukung oleh single "dammit". Dude Ranch hingga saat ini tercatat telah terjual lebih dari satu juta keping. Scott Raynor kemudian digantikan oleh Travis Barker pada pertengahan tour tahun 1998.
+            </P>
+            <p>
+                Blink-182 mendapatkan sukses yang lebih besar pada tahun 1999 dengan penjualan album multi-platinum Enema of the State, yang terjual 15 juta keping dan mencapai posisi 9 di chart Billboard 200 Amerika berkat singel "What's My Age Again" dan "All the Small Things". Album mereka berikutnya, Take Off Your Pants and Jacket, pada tahun 2001 berhasil melanjutkan kesuksesan mereka dengan terjual 14 juta keping dan mencapai posisi 1 di Amerika Serikat, Kanada, dan Jerman. Album kelima mereka, Blink-182 dirilis pada tahun 2003 dan merupakan titik perubahan gaya musik Blink-182, dengan mencampur unsur eksperimental dan suara pop punk khas mereka yang menghasilkan suara yang terdengar lebih dewasa.
+            </p>
+            <p>
+                Tom DeLonge meninggalkan Blink-182 pada awal 2005, membuat status Blink-182 berada dalam masa vakum. Setelah itu, DeLonge membentuk band Angels & Airwaves sementara Hoppus dan Barker membentuk band +44. Pasca vakumnya +44, Hoppus dan Barker kemudian mulai melakukan solo-karier.
+            </p>
+            <p>
+                Blink-182 bersatu kembali pada Februari 2009. Album keenam mereka, Neighborhoods, dirilis pada 27 September 2011, dan meluncurkan album Dogs Eating Dogs pada 18 Desember 2012. Pada Januari 2015, Tom DeLonge memutuskan hengkang dari Blink-182 karena ia ingin fokus dengan hal-hal yang berada di luar dunia musik. Tom digantikan oleh Matt Skiba dari band Alkaline Trio.
+            </p>
+            <p>
+                Gaya bermusik Blink-182 membantu meningkatkan popularitas musik pop-punk, membuat mereka populer. Di seluruh dunia, grup ini telah menjual 50 juta album, dan 13 juta kopi di AS.
+
+
+            </p>
+        </div>
+    </div>
+    <div id="personil" class="w3-container tampil" style="display: none;">
+        <div class="w3-panel">
+            <center>
+                <h2>TOM DELONGE</h2>
+            </center>
+            <div class="w3-panel">
+                <center>
+
+                    <img src="css/tom.jpg" style="width: 25%;">
+                </center>
+            </div>
+            <p>
+                Thomas Matthew DeLonge (lahir 13 Desember 1975)[1] adalah musisi dan penyanyi asal Amerika Serikat, dia adalah vokalis dan gitaris dari grup musik Blink-182 & Angels & Airwaves yang di bentuk pada tahun 2005, dan sebelumnya dia ada vokalis dan gitaris dari Blink-182 dari tahun 1992 hingga pemecatannya dari grup musik tersebut pada 2015, dan pada tahun 2022 kembali bergabung dengan Blink-182 .
+            </p>
+        </div>
+                <div class="w3-panel">
+                    <center>
+                        <h2>MARK HOPPUS</h2>
+                    </center>
+                    <div class="w3-panel">
+                        <center>
+
+                            <img src="css/mark.webp" style="width: 25%;">
+                        </center>
+                    </div>
+                    <p>
+                         Mark Allan Hoppus (lahir 15 Maret 1972), dia seorang Bassis di band Bergenre Pop Punk bersama Tom DeLonge dan Travis Barker bernama Blink-182 dan band-band lainnya.Ketika Mark berumur 15 tahun, ia mendapatkan bass pertamanya sebagai hadiah ulang tahun dari ayahnya. Mark belajar bass dengan cara otodidak. Pada bulan Agustus 1992, adik Mark yang bernama Anne memperkenalkannya pada Tom DeLonge.
+                    </p>
+                </div>
+        <div class="w3-panel">
+            <center>
+                <h2>TRAVIS BARKER</h2>
+            </center>
+            <div class="w3-panel">
+                <center>
+
+                    <img src="css/travis.jpg" style="width: 25%;">
+                </center>
+            </div>
+        </div>
+        <p>
+            Travis Landon Barker (lahir 14 November 1975) adalah pemain perkusi asal Amerika Serikat bagian California. Namanya terkenal setelah menjadi pemain drum untuk grup PunkRock Blink 182, dia pernah bermain untuk +44. Barker juga bermain untuk beberapa grup musik seperti Box Car Racer, The Transplants, Expensive Taste, The Suicide Machines, dan The Aquabats.
+        </p>
+    </div>
+    <div id="music" class="w3-container tampil" style="display: none;">
+        <div class="w3-panel">
+            <center>
+                <h2>I MISS YOU</h2>
+            </center>
+            <p>
+            blink-182 dikenal sebagai band pop punk yang sering membawakan dan menciptakan lagu-lagu cepat dengan lirik-lirik 'nakal' khas anak muda tahun 2000-an awal.
+            </p>
+            Namun, blink-182 juga punya sisi 'galau'. Mereka nggak melulu melantunkan lagu-lagu semangat anak muda, tapi juga lagu-lagu sedih yang relevan dengan kehidupan anak muda, dulu dan saat ini.
+            Salah satunya adalah I Miss You, salah satu lagu paling berbeda dan paling mencolok yang pernah dimiliki oleh blink-182.
+            Lagu ini merupakan lagu sedih yang sangat berbeda dari lagu-lagu blink-182 lainnya. Sebut saja pemilihan instrumen seperti gitar akustik hingga bass cello. Nggak biasanya Tom Delonge dan Mark Hoppus menggunakan instrumen akustik seperti itu.
+            <p>
+            Tom Delonge pun pernah curhat terkait kisah sedih di balik lagu I Miss You yang sangat nge-hits ini. Ia mengatakan kalau lagu ini menceritakan tentang rasa sakit yang kita rasakan saat sedang jatuh cinta.
+            "Lagu ini lebih menceritakan tentang kerentanan dan rasa sakit yang kamu rasakan ketika kamu jatuh cinta, apalagi ketika kamu seorang cowok dan berusaha untuk memberi tahu sesuatu terhadap seorang cewek," ujar Tom, yang kini sedang disibukkan dengan hobi mencari UFO dan aliennya.
+            "Lagu ini seakan mengatakan, 'Jangan habiskan waktumu datang dan bicara kepadaku, di pikiranku, kamu mungkin sudah putus asa terhadapku,'," lanjutnya menambahkan.
+            </p>
+        </div>
+        <div class="w3-panel">
+            <center>
+                <h2>WHAT'S MY AGE AGAIN?</h2>
+            </center>
+            <p>
+            "What's My Age Again?" adalah lagu dari band rock Amerika Blink-182. Lagu ini dirilis pada bulan April 1999 sebagai single utama dari album studio ketiga grup, Enema of the State (1999), dirilis melalui MCA Records. "What's My Age Again?" berbagi kredit penulisan antara gitaris band Tom DeLonge dan bassis Mark Hoppus, tetapi Hoppus adalah komposer utama lagu tersebut. Itu adalah single pertama band yang menampilkan drummer Travis Barker. Lagu pop punk bertempo sedang, "What's My Age Again?" berkesan karena intro gitarnya yang khas dan arpeggio.
+            </p>
+            <p>
+            Lirik lagu tersebut berkisah tentang permulaan usia dan kedewasaan, serta kegagalan dalam menerapkan perubahan perilaku seseorang. Hoppus menolak memberi label lagu tersebut sebagai otobiografi, tetapi mengakui bahwa dia menghabiskan usia dua puluhan dengan bertindak tidak dewasa. Ketiganya merekam lagu tersebut dengan produser Jerry Finn. Awalnya berjudul " Peter Pan Complex ", sebuah singgungan pada konsep psikologi pop , namun label rekaman menganggap referensi tersebut tidak jelas dan menyesuaikan judulnya. Video musik khas lagu tersebut terkenal menampilkan band yang berlari telanjang di jalanan Los Angeles. Ini menerima rotasi besar-besaran di MTV dan saluran video musik lainnya.
+            </p>
+        </div>
+         <div class="w3-panel">
+            <center>
+                <h2>FIRST DATE</h2>
+            </center>
+            <p>
+            Tom DeLonge cs. mempercayakan Rick DeVoe sebagai orang pertama yang mendengar materi Take Off Your Pants and Jacket. Saat ditanya bagaimana albumnya, Rick menjawab, "Saya pikir (album) ini benar-benar keren, tapi saya nggak mendengar sesuatu yang catchy. Yaitu sebuah lagu musim panas dari Blink-182."
+            </p>
+            <p>
+            Bercerita kepada The AV Club, Hoppus menjelaskan reaksi mereka atas jawaban Rick tersebut, "'Kau ingin lagu musim panas? Saya akan menulis single musim panas terkonyol dan paling catchy, yang pernah Anda dengar!' Saya pulang, meraih gitar saya, duduk di lanta. Tom pulang, meraih gitarnya, dan menulis 'First Date.'"
+            </p>
+        </div>
+        <div class="w3-panel">
+            <center>
+                 <h2>ONE MORE TIME</h2>
+            </center>
+            <p>
+            "One More Time" adalah lagu yang direkam oleh band rock Amerika Blink-182. Lagu tersebut dirilis pada 21 September 2023 melalui Columbia Records sebagai single kedua dari album kesembilan mereka yang berjudul sama, dan dirilis bersamaan dengan lagu lainnya, " More Than You Know ". Lagu ini ditulis oleh bassis Mark Hoppus, gitaris Tom DeLonge, dan drummer Travis Barker, dengan Barker ikut memproduseri lagu tersebut bersama penulis lagu Andrew Goldstein dan Aldae.
+            </p>
+            <p>
+            Lagu ini berfokus pada sejarah band, dan hubungan interpersonal antara tiga anggota formasi klasik. DeLonge membuka lagu dengan membahas kepergiannya dari band dan bagaimana hal itu berdampak pada hubungannya dengan Hoppus dan Barker: "Orang asing, dari orang asing menjadi saudara / Dari saudara menjadi orang asing sekali lagi."
+            </p>
+        </div> 
+    </div>
+    <div id="tour" class="w3-panel tampil" style="display: none;">
+            <center>
+                        
+                <img src="css/tour.webp" style="width: 100%;">
+            </center>
+            <div class="w3-bar w3-black" style="display: flex; justify-content: space-between;" >
+                <table>
+                    <tr>
+                      <th>THU,FEB 8 RAC ARENA</th>
+                      <th></th>
+                    <th>PERTH,AUSTRALIA</th>
+                    </tr>
+                    <tr>
+                      <td>FRI,FEB 9 RAC ARENA</td>
+                      <td></td>
+                      <td>RAC ARENA</td>
+                    </tr>
+                    <tr>
+                      <td>SUN,FEB 11 SIJALAK HARUPAT</td>
+                      <td></td>
+                      <td>BANDUNG,INDONESIA</td>
+                    </tr>
+                    <tr>
+                      <td>TUE,FEB 13 GBK</td>
+                      <td></td>
+                      <td>JAKARTA,INDONESIA</td>
+                    </tr>
+                    <tr>
+                      <td>FRI,FEB 16 QUDOS BANK ARENA</td>
+                      <td></td>
+                      <td>SDNEY,AUSTRALIA</td>
+                    </tr>
+                  </table>
+            </div>
+    </div>
+    <div id="aboutme" class="w3-panel tampil" style="display: none;">
+        <center>
+            <div class="w3-panel w3-border-w3-large aboutme">
+                <h2><span>Tentang</span>Pembuat</h2>
+                <img src="css/heldi.jpg" alt="width: 100%;">
+                <div class="w3-center-align">
+                    <p>Nama : Heldiana</p>
+                    <p>NIM  : 10123453</p>
+                    <p>Kelas: IF-11</p>
+
+                </div>
+
+
+
+
+            </div>
+        </center>
+
+    </div>
+
+</html>
